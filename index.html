@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>월간 가계부</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: right;
+        }
+        th {
+            background-color: #f2f2f2;
+            text-align: center;
+        }
+        .category {
+            text-align: left;
+            font-weight: bold;
+        }
+        .total {
+            background-color: #e6e6e6;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>2024년 월간 가계부</h1>
+    
+    <table>
+        <tr>
+            <th>항목</th>
+            <th>금액 (원)</th>
+            <th>비고</th>
+        </tr>
+        <tr>
+            <td class="category">수입</td>
+            <td>3,000,000</td>
+            <td>월급</td>
+        </tr>
+        <tr>
+            <td class="category">저축</td>
+            <td>500,000</td>
+            <td>정기적금</td>
+        </tr>
+        <tr>
+            <td class="category">투자</td>
+            <td>300,000</td>
+            <td>주식/펀드</td>
+        </tr>
+        <tr>
+            <td class="category">고정비</td>
+            <td>1,200,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">월세</td>
+            <td>600,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">공과금</td>
+            <td>150,000</td>
+            <td>전기/수도/가스</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">통신비</td>
+            <td>100,000</td>
+            <td>휴대폰/인터넷</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">보험료</td>
+            <td>350,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td class="category">소비</td>
+            <td>700,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">식비</td>
+            <td>400,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">교통비</td>
+            <td>100,000</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td style="padding-left: 20px;">문화생활</td>
+            <td>200,000</td>
+            <td></td>
+        </tr>
+        <tr class="total">
+            <td class="category">남는 돈</td>
+            <td>300,000</td>
+            <td>수입 - (저축+투자+고정비+소비)</td>
+        </tr>
+    </table>
+</body>
+</html>
